@@ -1,4 +1,4 @@
 # Summary
 
-* [Introduction](README.md)
-* [demo](demo.md)
+1. [Introduction](README.md)
+1. [demo](demo.md)
