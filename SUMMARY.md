@@ -4,3 +4,4 @@
 - [准备开始](getting-started.md)
 - [外框功能](demo.md)
   - [mock 数据](structure/mock.md)
+- [hybrid 组件](hybrid.md)
