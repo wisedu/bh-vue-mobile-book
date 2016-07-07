@@ -3,5 +3,19 @@
 ### 初始化项目
 
 ```
-$ vue init webpack-simple
+$ vue init GilbertSun/bh-mobile-template my-project
+$ npm install
+```
+
+### 项目结构
+
+```
+my-project
+├── README.md
+├── index.html
+├── package.json
+├── src
+│   ├── App.vue
+│   └── main.js
+└── webpack.config.js
 ```
