@@ -14,7 +14,11 @@ my-project
 ├── README.md
 ├── index.html
 ├── package.json
+├── doc
+├── mock
 ├── src
+│   ├── components
+│   ├── pages
 │   ├── App.vue
 │   └── main.js
 └── webpack.config.js
