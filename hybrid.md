@@ -22,3 +22,10 @@
 
 1. 显示 Toast 提示
 2. 控制 Toast 显示的时间
+
+### Loading 状态
+
+**需求**
+
+1. 显示 Loading 状态
+2. 消失 Loading 状态
