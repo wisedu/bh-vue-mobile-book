@@ -1,4 +1,4 @@
-serve:
+dev:
 	gitbook serve
 
 build:
