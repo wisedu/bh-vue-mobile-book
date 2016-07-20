@@ -1,6 +1,8 @@
 serve:
-  gitbook serve
+	gitbook serve
+
 build:
-  gitbook build
+	gitbook build
+
 deploy: build
-  gh-pages -d _book
+	gh-pages -d _book
