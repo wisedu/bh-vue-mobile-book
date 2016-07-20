@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>hybrid 组件 | 移动端框架简介</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    
+    <link rel="prev" href="./framework/mock.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="3"
+        data-chapter-title="hybrid 组件"
+        data-filepath="hybrid.md"
+        data-basepath="."
+        data-revision="Wed Jul 20 2016 10:01:44 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="getting-started.html">
+            
+                
+                    <a href="./getting-started.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        准备开始
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="framework/index.html">
+            
+                
+                    <a href="./framework/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        外框介绍
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="framework/dev.html">
+            
+                
+                    <a href="./framework/dev.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        开发流程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="framework/structure.html">
+            
+                
+                    <a href="./framework/structure.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        目录规范
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="framework/mock.html">
+            
+                
+                    <a href="./framework/mock.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        mock 数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="3" data-path="hybrid.html">
+            
+                
+                    <a href="./hybrid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        hybrid 组件
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本書使用 GitBook 釋出
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >移动端框架简介</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="hybrid-&#x7EC4;&#x4EF6;">Hybrid &#x7EC4;&#x4EF6;</h1>
+<h3 id="&#x9009;&#x62E9;&#x7EC4;&#x4EF6;">&#x9009;&#x62E9;&#x7EC4;&#x4EF6;</h3>
+<p><strong>&#x9700;&#x6C42;</strong></p>
+<ol>
+<li>&#x6839;&#x636E;&#x4F20;&#x5165;&#x7684;&#x6570;&#x636E;&#x6E32;&#x67D3;&#x9009;&#x62E9;&#x7EC4;&#x4EF6;(&#x5E94;&#x8BE5;&#x4F1A;&#x5305;&#x542B; label &#x548C; value)</li>
+<li>&#x6839;&#x636E;&#x4F20;&#x5165;&#x7684;&#x521D;&#x59CB;&#x503C;&#x9009;&#x62E9;&#x9ED8;&#x8BA4;&#x7684;&#x503C;</li>
+<li>&#x5C06;&#x7528;&#x6237;&#x7684;&#x9009;&#x4E2D;&#x503C;&#x8FD4;&#x56DE; </li>
+</ol>
+<h3 id="&#x9009;&#x62E9;&#x57CE;&#x5E02;&#x7EC4;&#x4EF6;">&#x9009;&#x62E9;&#x57CE;&#x5E02;&#x7EC4;&#x4EF6;</h3>
+<p><strong>&#x9700;&#x6C42;</strong></p>
+<ol>
+<li>&#x6E32;&#x67D3;&#x9009;&#x62E9;&#x57CE;&#x5E02;&#x7684;&#x7EC4;&#x4EF6;(&#x8981;&#x80FD;&#x548C;&#x540E;&#x7AEF;&#x914D;&#x5408;)</li>
+<li>&#x6839;&#x636E;&#x4F20;&#x5165;&#x7684;&#x521D;&#x59CB;&#x503C;&#x9009;&#x62E9;&#x9ED8;&#x8BA4;&#x7684;&#x503C;</li>
+<li>&#x5C06;&#x7528;&#x6237;&#x7684;&#x9009;&#x4E2D;&#x503C;&#x8FD4;&#x56DE; </li>
+</ol>
+<h3 id="&#x9009;&#x62E9;&#x65F6;&#x95F4;&#x65E5;&#x671F;">&#x9009;&#x62E9;&#x65F6;&#x95F4;/&#x65E5;&#x671F;</h3>
+<p><strong>&#x9700;&#x6C42;</strong></p>
+<ol>
+<li>&#x6E32;&#x67D3;&#x9009;&#x62E9;&#x65E5;&#x671F;&#x7684;&#x7EC4;&#x4EF6;(&#x6839;&#x636E;&#x914D;&#x7F6E;&#x9009;&#x62E9;&#x662F;&#x6E32;&#x67D3;&#x65F6;&#x95F4;&#x8FD8;&#x662F;&#x9009;&#x62E9;&#x65E5;&#x671F;)</li>
+<li>&#x6839;&#x636E;&#x4F20;&#x5165;&#x7684;&#x521D;&#x59CB;&#x503C;&#x81EA;&#x52A8;&#x5B9A;&#x4F4D;&#x5230;&#x65E5;&#x671F;</li>
+<li>&#x80FD;&#x591F;&#x6839;&#x636E;&#x914D;&#x7F6E;&#x7981;&#x6B62;&#x67D0;&#x4E9B;&#x65E5;&#x671F;&#x7684;&#x9009;&#x62E9;</li>
+<li>&#x5C06;&#x7528;&#x6237;&#x7684;&#x9009;&#x4E2D;&#x503C;&#x8FD4;&#x56DE;</li>
+</ol>
+<h3 id="toast">Toast</h3>
+<p><strong>&#x9700;&#x6C42;</strong></p>
+<ol>
+<li>&#x663E;&#x793A; Toast &#x63D0;&#x793A;</li>
+<li>&#x63A7;&#x5236; Toast &#x663E;&#x793A;&#x7684;&#x65F6;&#x95F4;</li>
+</ol>
+<h3 id="loading-&#x72B6;&#x6001;">Loading &#x72B6;&#x6001;</h3>
+<p><strong>&#x9700;&#x6C42;</strong></p>
+<ol>
+<li>&#x663E;&#x793A; Loading &#x72B6;&#x6001;</li>
+<li>&#x6D88;&#x5931; Loading &#x72B6;&#x6001;</li>
+</ol>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./framework/mock.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: mock 数据"><i class="fa fa-angle-left"></i></a>
+        
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
