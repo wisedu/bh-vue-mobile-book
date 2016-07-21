@@ -1,8 +1,10 @@
 # Summary
 
-- [框架简介](introduction.md)
-- [准备开始](getting-started.md)
-- [外框介绍](framework/index.md)
+- 开始
+  - [框架简介](introduction.md)
+  - [快速上手](quick-start.md)
+- 脚手架
+  - [介绍](framework/index.md)
   - [开发流程](framework/dev.md)
   - [目录规范](framework/structure.md)
   - [mock 数据](framework/mock.md)
