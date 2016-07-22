@@ -2,7 +2,7 @@
 
 ## 目录结构
 
-脚手架生成的项目目录结构大致是下面的样子
+脚手架生成的项目目录结构大致是下面的样子 
 
 ```
 my-project
@@ -11,10 +11,10 @@ my-project
 │   ├── components
 │   ├── pages
 │   └── vuex
-│       ├── action.js
-│       │── store.js
-│       └── modules
-│          └── index.js
+│   │   ├── action.js
+│   │   │── store.js
+│   │   └── modules
+│   │       └── index.js
 │   ├── App.vue
 │   └── main.js
 ├── .babelrc
