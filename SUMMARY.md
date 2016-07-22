@@ -6,4 +6,8 @@
 - 脚手架
   - [介绍](scaffold/index.md)
   - [规范](scaffold/standard.md)
+    - JavaScript Code Style
+    - CSS Code style
+    - HTML Code style 
+    - Vue Code style
 - [hybrid 组件](hybrid.md)
