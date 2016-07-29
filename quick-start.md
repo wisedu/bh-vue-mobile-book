@@ -15,7 +15,7 @@ $ npm i vue-cli -g
 如果速度慢的话使用国内镜像
 
 ```bash
-$ npm i cooking -g --registry=https://registry.npm.taobao.org
+$ npm i vue-cli -g --registry=https://registry.npm.taobao.org
 ```
 
 
