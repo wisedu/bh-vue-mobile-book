@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>如何使用 | 移动端框架简介</title>
+        <title>SDK | 移动端框架简介</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -37,10 +37,8 @@
         
     
     
-    <link rel="next" href="../hybrid/component.html" />
     
-    
-    <link rel="prev" href="../hybrid/index.html" />
+    <link rel="prev" href="../hybrid/component.html" />
     
 
         
@@ -49,9 +47,9 @@
         
         
     <div class="book"
-        data-level="4.2"
-        data-chapter-title="如何使用"
-        data-filepath="hybrid/how-to-use.md"
+        data-level="5"
+        data-chapter-title="SDK"
+        data-filepath="SDK/index.md"
         data-basepath=".."
         data-revision="Mon Sep 12 2016 10:07:40 GMT+0800 (CST)"
         data-innerlanguage="">
@@ -253,7 +251,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="4.2" data-path="hybrid/how-to-use.html">
+        <li class="chapter " data-level="4.2" data-path="hybrid/how-to-use.html">
             
                 
                     <a href="../hybrid/how-to-use.html">
@@ -288,7 +286,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5" data-path="SDK/index.html">
+        <li class="chapter active" data-level="5" data-path="SDK/index.html">
             
                 
                     <a href="../SDK/index.html">
@@ -336,27 +334,12 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x5982;&#x4F55;&#x4F7F;&#x7528;-hybrid-&#x80FD;&#x529B;">&#x5982;&#x4F55;&#x4F7F;&#x7528; Hybrid &#x80FD;&#x529B;</h1>
-<h2 id="&#x4F9D;&#x8D56;">&#x4F9D;&#x8D56;</h2>
-<p>&#x5E0C;&#x671B;&#x5728;&#x9875;&#x9762;&#x4E2D;&#x4F7F;&#x7528; Hybrid &#x80FD;&#x529B;&#x9700;&#x8981;&#x5F15;&#x5165;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;, &#x6846;&#x67B6;&#x4E3A;&#x4E86;&#x5C4F;&#x853D;&#x5F15;&#x5165;&#x7684;&#x590D;&#x6742;&#x5EA6;, &#x5C06;&#x5F15;&#x5165;&#x7684;&#x8FC7;&#x7A0B;&#x5C01;&#x88C5;</p>
-<h2 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h2>
-<p>&#x5728;&#x9875;&#x9762;&#x5F15;&#x5165;&#x4E00;&#x4E2A; js &#x6587;&#x4EF6;</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;./static/mobile/js/hybrid.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
-</code></pre>
-<p>&#x5728;&#x5165;&#x53E3;&#x6587;&#x4EF6;main.js</p>
-<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (process.env.NODE_ENV === <span class="hljs-string">&apos;production&apos;</span>) {
-  <span class="hljs-comment">// For the Hybrid App</span>
-  Hybrid.Init(() =&gt; {
-    <span class="hljs-comment">// only can get this when Hybrid.Init is called</span>
-    global.HOST = site_url;
-    Init();
-  });
-} <span class="hljs-keyword">else</span> {
-  global.HOST = <span class="hljs-string">&apos;http://amptest.wisedu.com&apos;</span>;
-  Init();
-}
-</code></pre>
-<p>&#x8FD9;&#x65F6; Hybrid &#x5DF2;&#x7ECF;&#x521D;&#x59CB;&#x5316;&#x5B8C;&#x6210;, &#x53EF;&#x4EE5;&#x4F7F;&#x7528; Hybrid &#x7684;&#x80FD;&#x529B;</p>
+                        <h1 id="sdk&#x4ECB;&#x7ECD;">SDK&#x4ECB;&#x7ECD;</h1>
+<h2 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h2>
+<p>&#x6839;&#x636E;&#x8BA8;&#x8BBA;&#x4EE5;&#x540E;&#x79FB;&#x52A8;&#x7AEF;&#x7684; App &#x4F1A;&#x91C7;&#x53D6; H5 &#x7684;&#x5F62;&#x5F0F;&#x5F00;&#x53D1;&#xFF0C;&#x4EE5;&#x9002;&#x5E94;&#x5E94;&#x7528;&#x8DD1;&#x5728;&#x591A;&#x7AEF;&#x7684;&#x9700;&#x6C42;&#x3002;&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x8FD9;&#x4E00;&#x76EE;&#x6807;&#xFF0C;&#x9700;&#x8981;&#x6709;&#x4E00;&#x5957;&#x7EDF;&#x4E00;&#x7684; SDK &#x5C01;&#x88C5;&#x51FA;&#x5FAE;&#x4FE1;&#x548C;&#x79FB;&#x52A8;&#x6821;&#x56ED;&#x80FD;&#x529B;&#xFF0C;&#x652F;&#x6301;&#x4E24;&#x7AEF;&#x7684;&#x5F00;&#x53D1;&#x3002;</p>
+<p>SDK &#x7684;&#x5C01;&#x88C5;&#x57FA;&#x4E8E;&#x79FB;&#x52A8;&#x56E2;&#x961F;&#x7684; cordova &#x7684;&#x5C01;&#x88C5;<del>&#x548C;&#x5FAE;&#x4FE1; jssdk</del></p>
+<p>&#x56E0;&#x4E3A;&#x5FAE;&#x4FE1; SDK &#x5E76;&#x6CA1;&#x6709;&#x63D0;&#x4F9B;&#x592A;&#x591A;&#x7684; native &#x80FD;&#x529B;&#xFF0C;&#x4E00;&#x6B21;&#x5728;&#x4EA7;&#x54C1;&#x8BBE;&#x8BA1;&#x7684;&#x65F6;&#x5019;&#x5FAE;&#x4FE1;&#x7684;&#x529F;&#x80FD;&#x4E0D;&#x5E94;&#x8BBE;&#x8BA1;&#x7684;&#x590D;&#x6742;&#xFF0C;&#x4E00;&#x4E9B;&#x590D;&#x6742;&#x7684;&#x4EA4;&#x4E92;&#x6216;&#x8005;&#x529F;&#x80FD;&#x5FAE;&#x4FE1;&#x5E76;&#x4E0D;&#x80FD;&#x5B8C;&#x5168;&#x5B9E;&#x73B0;&#xFF0C;&#x5177;&#x4F53;&#x80FD;&#x4E0D;&#x80FD;&#x5B9E;&#x73B0;&#x9700;&#x8981;&#x6839;&#x636E; SDK &#x7684;&#x5C01;&#x88C5;&#x6765;&#x51B3;&#x5B9A;&#xFF0C;&#x5982;&#x679C;&#x5728; H5 &#x5E94;&#x7528;&#x4E2D;&#x4F7F;&#x7528;&#x4E86;&#x5FAE;&#x4FE1;&#x4E0D;&#x652F;&#x6301;&#x7684;SDK&#xFF0C;<del>&#x63A5;&#x53E3;&#x4F1A;&#x53D1;&#x51FA;&#x8B66;&#x544A;</del>&#x3002;</p>
+<p>&#x672C;&#x6587;&#x6863;&#x53EA;&#x662F;&#x5BF9; SDK &#x7684;&#x63CF;&#x8FF0;&#x5E76;&#x4E0D;&#x662F;&#x5177;&#x4F53;&#x7684;&#x63A5;&#x53E3;&#x6587;&#x6863;</p>
 
                     
                     </section>
@@ -367,10 +350,8 @@
         </div>
 
         
-        <a href="../hybrid/index.html" class="navigation navigation-prev " aria-label="Previous page: 介绍"><i class="fa fa-angle-left"></i></a>
+        <a href="../hybrid/component.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 未来的组件"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../hybrid/component.html" class="navigation navigation-next " aria-label="Next page: 未来的组件"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
