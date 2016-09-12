@@ -16,3 +16,4 @@
   - [介绍](hybrid/index.md)
   - [如何使用](hybrid/how-to-use.md)
   - [未来的组件](hybrid/component.md)
+- [SDK](SDK/index.md)
