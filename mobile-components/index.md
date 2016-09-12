@@ -27,4 +27,12 @@ export default {
 
 ## 文档
 
-暂时先使用 mint-ui [官方文档](http://mint-ui.github.io/#!/zh-cn), 随着我们自己的定制, 我们会将文档地址转到 `wisedu` 下维护
+[官网](https://wisedu-mobile.github.io/#!/)
+
+[文档地址](https://wisedu.github.io/bh-mint-ui-docs/#!/zh-cn)
+
+[demo示例](https://wisedu.github.io/bh-mint-ui/#!/)
+
+扫码查看示例
+
+![二维码](qr.png)
