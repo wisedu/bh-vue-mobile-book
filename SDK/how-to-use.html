@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>介绍 | 移动端框架简介</title>
+        <title>如何使用 | 移动端框架简介</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.6.7">
@@ -37,10 +37,8 @@
         
     
     
-    <link rel="next" href="../SDK/how-to-use.html" />
     
-    
-    <link rel="prev" href="../hybrid/component.html" />
+    <link rel="prev" href="../SDK/index.html" />
     
 
         
@@ -49,9 +47,9 @@
         
         
     <div class="book"
-        data-level="5.1"
-        data-chapter-title="介绍"
-        data-filepath="SDK/index.md"
+        data-level="5.2"
+        data-chapter-title="如何使用"
+        data-filepath="SDK/how-to-use.md"
         data-basepath=".."
         data-revision="Tue Sep 13 2016 08:30:36 GMT+0800 (CST)"
         data-innerlanguage="">
@@ -296,7 +294,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="5.1" data-path="SDK/index.html">
+        <li class="chapter " data-level="5.1" data-path="SDK/index.html">
             
                 
                     <a href="../SDK/index.html">
@@ -311,7 +309,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.2" data-path="SDK/how-to-use.html">
+        <li class="chapter active" data-level="5.2" data-path="SDK/how-to-use.html">
             
                 
                     <a href="../SDK/how-to-use.html">
@@ -364,16 +362,20 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="sdk&#x5F00;&#x53D1;&#x5957;&#x4EF6;">SDK(&#x5F00;&#x53D1;&#x5957;&#x4EF6;)</h1>
-<h2 id="&#x4ECB;&#x7ECD;">&#x4ECB;&#x7ECD;</h2>
-<p>&#x6839;&#x636E;&#x8BA8;&#x8BBA;&#x4EE5;&#x540E;&#x79FB;&#x52A8;&#x7AEF;&#x7684; App &#x4F1A;&#x91C7;&#x53D6; H5 &#x7684;&#x5F62;&#x5F0F;&#x5F00;&#x53D1;&#xFF0C;&#x4EE5;&#x9002;&#x5E94;&#x5E94;&#x7528;&#x8DD1;&#x5728;&#x591A;&#x7AEF;&#x7684;&#x9700;&#x6C42;&#x3002;&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x8FD9;&#x4E00;&#x76EE;&#x6807;&#xFF0C;&#x9700;&#x8981;&#x6709;&#x4E00;&#x5957;&#x7EDF;&#x4E00;&#x7684; SDK &#x5C01;&#x88C5;&#x51FA;&#x5FAE;&#x4FE1;&#x548C;&#x79FB;&#x52A8;&#x6821;&#x56ED;&#x80FD;&#x529B;&#xFF0C;&#x652F;&#x6301;&#x4E24;&#x7AEF;&#x7684;&#x5F00;&#x53D1;&#x3002;</p>
-<p>SDK &#x7684;&#x5C01;&#x88C5;&#x57FA;&#x4E8E;&#x79FB;&#x52A8;&#x56E2;&#x961F;&#x7684; cordova &#x7684;&#x5C01;&#x88C5;<del>&#x548C;&#x5FAE;&#x4FE1; jssdk</del></p>
-<p>&#x56E0;&#x4E3A;&#x5FAE;&#x4FE1; SDK &#x5E76;&#x6CA1;&#x6709;&#x63D0;&#x4F9B;&#x592A;&#x591A;&#x7684; native &#x80FD;&#x529B;&#xFF0C;&#x4E00;&#x6B21;&#x5728;&#x4EA7;&#x54C1;&#x8BBE;&#x8BA1;&#x7684;&#x65F6;&#x5019;&#x5FAE;&#x4FE1;&#x7684;&#x529F;&#x80FD;&#x4E0D;&#x5E94;&#x8BBE;&#x8BA1;&#x7684;&#x590D;&#x6742;&#xFF0C;&#x4E00;&#x4E9B;&#x590D;&#x6742;&#x7684;&#x4EA4;&#x4E92;&#x6216;&#x8005;&#x529F;&#x80FD;&#x5FAE;&#x4FE1;&#x5E76;&#x4E0D;&#x80FD;&#x5B8C;&#x5168;&#x5B9E;&#x73B0;&#xFF0C;&#x5177;&#x4F53;&#x80FD;&#x4E0D;&#x80FD;&#x5B9E;&#x73B0;&#x9700;&#x8981;&#x6839;&#x636E; SDK &#x7684;&#x5C01;&#x88C5;&#x6765;&#x51B3;&#x5B9A;&#xFF0C;&#x5982;&#x679C;&#x5728; H5 &#x5E94;&#x7528;&#x4E2D;&#x4F7F;&#x7528;&#x4E86;&#x5FAE;&#x4FE1;&#x4E0D;&#x652F;&#x6301;&#x7684;SDK&#xFF0C;<del>&#x63A5;&#x53E3;&#x4F1A;&#x53D1;&#x51FA;&#x8B66;&#x544A;</del>&#x3002;</p>
-<p>&#x672C;&#x6587;&#x6863;&#x53EA;&#x662F;&#x5BF9; SDK &#x7684;&#x63CF;&#x8FF0;&#x5E76;&#x4E0D;&#x662F;&#x5177;&#x4F53;&#x7684;&#x63A5;&#x53E3;&#x6587;&#x6863;</p>
-<h2 id="&#x4E0E;&#x4E0A;&#x6587;-hybrid-&#x7684;&#x4E0D;&#x540C;">&#x4E0E;&#x4E0A;&#x6587; Hybrid &#x7684;&#x4E0D;&#x540C;</h2>
-<p>Hybrid &#x662F;&#x79FB;&#x52A8;&#x6821;&#x56ED;&#x5916;&#x6846;&#x524D;&#x671F;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;, &#x91C7;&#x7528;&#x7684;&#x662F;&#x5F15;&#x5165;&#x4E00;&#x4E2A; Hybrid &#x7684;&#x6587;&#x4EF6;&#x7684;&#x5F62;&#x5F0F; <a href="http://localhost:4000/hybrid/how-to-use.html#&#x4F7F;&#x7528;" target="_blank">&#x5F15;&#x5165;</a></p>
-<p>SDK &#x91C7;&#x7528; npm &#x5305;&#x7684;&#x5F62;&#x5F0F;&#x5355;&#x72EC;&#x7BA1;&#x7406;, &#x4E5F;&#x63D0;&#x4F9B;&#x72EC;&#x7ACB;&#x6587;&#x4EF6;&#x5F15;&#x5165;&#x7684;&#x652F;&#x6301;</p>
-<p>&#x968F;&#x7740;&#x79FB;&#x52A8;&#x6821;&#x56ED;&#x7684;&#x5347;&#x7EA7;, Hybrid&#x6587;&#x4EF6;&#x7684;&#x5F62;&#x5F0F;&#x4F1A;&#x9010;&#x6E10;&#x88AB;&#x6DD8;&#x6C70;, &#x7EDF;&#x4E00;&#x91C7;&#x7528; SDK &#x7684;&#x5F62;&#x5F0F;</p>
+                        <h1 id="sdk-&#x4F7F;&#x7528;&#x529E;&#x6CD5;">SDK &#x4F7F;&#x7528;&#x529E;&#x6CD5;</h1>
+<h2 id="&#x5F15;&#x5165;">&#x5F15;&#x5165;</h2>
+<p>npm &#x5305;&#x5F15;&#x5165;</p>
+<pre><code class="lang-bash">$ npm i bh-mobile-sdk
+</code></pre>
+<p>&#x72EC;&#x7ACB;&#x6587;&#x4EF6;&#x5F15;&#x5165;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;https://raw.githubusercontent.com/wisedu/bh-mobile-sdk/master/lib/index.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-built_in">console</span>.log(BH_MOBILE_SDK) <span class="hljs-comment">// &#x6302;&#x8F7D;&#x70B9;</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p>&#x5F15;&#x5165;&#x540E; SDK &#x6302;&#x8F7D;&#x5728;&#x4E86; <code>BH_MOBILE_SDK</code> &#x53D8;&#x91CF;&#x4E0B;</p>
+<h2 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h2>
+<p>SDK &#x7684;&#x4F7F;&#x7528;&#x9700;&#x8981;&#x624B;&#x52A8;&#x8C03;&#x4E00;&#x4E0B; Init &#x65B9;&#x6CD5;, Init &#x7684;&#x8FC7;&#x7A0B;</p>
 
                     
                     </section>
@@ -384,10 +386,8 @@
         </div>
 
         
-        <a href="../hybrid/component.html" class="navigation navigation-prev " aria-label="Previous page: 未来的组件"><i class="fa fa-angle-left"></i></a>
+        <a href="../SDK/index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 介绍"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../SDK/how-to-use.html" class="navigation navigation-next " aria-label="Next page: 如何使用"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
